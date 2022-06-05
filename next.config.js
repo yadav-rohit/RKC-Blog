@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  basePath: "/nextjs-pages",
+  assetPrefix: "/nextjs-pages",
 };
 
 module.exports = {
@@ -11,5 +13,5 @@ module.exports = {
     domains: ["media.graphassets.com"],
   },
   basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages"
+  assetPrefix: "/nextjs-pages",
 };
