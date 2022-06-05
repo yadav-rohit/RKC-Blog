@@ -52,7 +52,7 @@ export default function Home({posts}) {
     <div className={styles.container}>
       <h1 className="mt-10 text-4xl">RO-BLOG</h1>
       <Head>
-        <title>RO-BLOG</title>
+        <title>RKC-BLOG</title>
         <meta name="description" content="A blog by Rohit or RohitKcode to share crazy and good content 
         about programming development and tech . learn the latest of tech and explore deep into them from the
         blog " />
