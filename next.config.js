@@ -6,6 +6,8 @@ const nextConfig = {
 module.exports = {
   nextConfig,
   images: {
+    loader: "akamai" ,
+    path: "",
     domains: ["media.graphassets.com"],
   },
 };
