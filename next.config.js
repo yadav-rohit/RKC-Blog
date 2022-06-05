@@ -10,4 +10,6 @@ module.exports = {
     path: "",
     domains: ["media.graphassets.com"],
   },
+  basePath: "/nextjs-pages",
+  assetPrefix: "/nextjs-pages"
 };
