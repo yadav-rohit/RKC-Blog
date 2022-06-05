@@ -50,7 +50,7 @@ export default function Home({posts}) {
 
   return (
     <div className={styles.container}>
-      <h1 className="mt-10 text-4xl">RO-BLOG</h1>
+      <h1 className="mt-10 text-4xl">RKC-BLOG</h1>
       <Head>
         <title>RKC-BLOG</title>
         <meta name="description" content="A blog by Rohit or RohitKcode to share crazy and good content 
