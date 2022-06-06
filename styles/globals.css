@@ -78,7 +78,7 @@ body {
 }
 
 .author{
-    padding: 2px ;
+    padding: 8px ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -87,7 +87,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .author{
-        padding: 10px;
+        padding: 2px;
     }
     .blogcard{
         width: 90%;
