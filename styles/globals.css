@@ -92,4 +92,6 @@ body {
     .blogcard{
         width: 90%;
     }
+	.imgContainer{
+		height: 20vh;
   }
