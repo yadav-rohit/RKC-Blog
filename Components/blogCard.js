@@ -22,8 +22,8 @@ function BlogPost({ title, author, coverPhoto, datePublished, slug }) {
       <div className={styles.text}>
         <h1 className="flex font-bold  text-xl mx-7 justify-center uppercase items-center">{title}
         </h1>
-        <div className="flex flex-row justify-between items-center mx-7 ">
-          <div className="author flex flex-row p-2  text-sm text-zinc-600 items-center  justify-between font-bold font-mono">
+        <div className="author flex flex-row justify-between items-center mx-7 ">
+          <div className="author p-2  text-sm text-zinc-600 items-center  justify-between font-bold font-mono">
             <Image width="30vh" height="30vh" className=" drop-shadow-sm" style={ {borderRadius: "50%" }} src={author.avatar.url} alt={author.name} />
             <h3> &nbsp; {author.name} </h3>
             {/* <h3>{datePublished}</h3> */}

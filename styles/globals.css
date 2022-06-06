@@ -84,3 +84,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .author{
+        padding: 2px;
+    }
+    .blogcard{
+        width: 90%;
+    }
+  }
