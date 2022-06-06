@@ -13,7 +13,7 @@ const styles = {
 
 function BlogPost({ title, author, coverPhoto, datePublished, slug }) {
   return (
-    <div className="blogcard w-[] md:w-1/2 shadow-xl">
+    <div className="blogcard shadow-xl">
       <Link href={`/posts/${slug}`}>
         <div className="imgContainer">
           <img  className="shadow-xl" src={coverPhoto.url} alt="" />

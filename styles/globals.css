@@ -15,10 +15,12 @@ body {
     height: fit-content;
     margin-left: 6px;
     margin-right: 6px;
+    width: 90%;
 }
 .imgContainer{
     height: 35vh;
     overflow: hidden;
+    width: 100%;
 }
 .main{
     display: flex;
