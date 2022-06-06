@@ -15,7 +15,7 @@ body {
     height: fit-content;
     margin-left: 6px;
     margin-right: 6px;
-    width: 90%;
+    width: 70%;
 }
 .imgContainer{
     height: 35vh;
@@ -75,4 +75,11 @@ body {
 @-webkit-keyframes aitf {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
