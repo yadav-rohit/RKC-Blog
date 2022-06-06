@@ -1,4 +1,4 @@
-// import styles from "../styles/BlogCard.module.css";
+// import style from "../styles/blogcard.css";
 import moment from "moment";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,9 +13,9 @@ const styles = {
 
 function BlogPost({ title, author, coverPhoto, datePublished, slug }) {
   return (
-    <div className="flex flex-col  w-[] md:w-1/2 col-span-1 rounded-[2em] shadow-xl overflow-hidden m-2 bg-indigo-100 h-fit mx-6">
+    <div className="blogcard w-[] md:w-1/2 shadow-xl">
       <Link href={`/posts/${slug}`}>
-        <div className="h-[35vh] overflow-hidden">
+        <div className="imgContainer">
           <img  className="shadow-xl" src={coverPhoto.url} alt="" />
         </div>
       </Link>

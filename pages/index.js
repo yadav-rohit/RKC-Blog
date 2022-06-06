@@ -10,7 +10,7 @@ const graphcms = new GraphQLClient(
 
 const styles = {
   container: "flex flex-col justify-center items-center",
-  main: "flex flex-col md:flex-row space-around pt-5 md:p-10 md:px-20 "
+  // main: "flex flex-col md:flex-row space-around pt-5 md:p-10 md:px-20 "
 }
 
 const QUERY = gql`
@@ -50,7 +50,7 @@ export default function Home({posts}) {
 
   return (
     <div className={styles.container}>
-      <h1 className="mt-10 text-4xl">RKC-BLOG</h1>
+      <h1 className="mt-10 "><p className="pp" ><span>RKC-BLOG</span></p></h1>
       <Head>
         <title>RKC-BLOG</title>
         <meta name="description" content="A blog by Rohit or RohitKcode to share crazy and good content 
@@ -58,7 +58,8 @@ export default function Home({posts}) {
         blog " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+
+      <main className="main">
         {posts.map((post) => (
           <Blogcard
             title={post.title}

@@ -5,3 +5,72 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.blogcard{
+    display: flex;
+    flex-direction:column;
+    border-radius: 2em;
+    overflow: hidden;
+    margin: 1em;
+    background-color: rgba(112, 193, 255, 0.6);
+    height: fit-content;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.imgContainer{
+    height: 35vh;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+.pp {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	/* padding: 1.5em 0em; */
+	/* position: absolute; */
+	/* top: 18%;
+	left: 50%; */
+	/* width: 40em; */
+    filter: drop-shadow(10px , 10px , 3px , #0000);
+}
+  
+.pp,span {
+    font: 400 3em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	/* padding: .25em 0 .325em; */
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+/* Clip Background Image */
+
+	  /* background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y; */
+	  background: url(https://images.ctfassets.net/7thvzrs93dvf/wpImage18536/5bad272ce24d9ce3b6b76a78ada6fa7b/abstract-pyrimid-upsplash.png?w=900&h=225&q=90&fm=png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 8s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
