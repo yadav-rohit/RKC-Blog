@@ -12,6 +12,6 @@ module.exports = {
     path: "",
     domains: ["media.graphassets.com"],
   },
-  // basePath: "/RKC-Blog",
-  // assetPrefix: "/RKC-Blog",
+  basePath: "/RKC-Blog",
+  assetPrefix: "/RKC-Blog",
 };
